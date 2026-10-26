@@ -13,9 +13,9 @@ import config
 from utils import (LandmarkExtractor, preprocess_frame, extract_keypoints,
                    draw_landmarks, hands_detected)
 
-CONFIDENCE_THRESHOLD = 0.80
+CONFIDENCE_THRESHOLD = 0.90
 STABLE_WINDOW = 10
-STABLE_MIN = 8
+STABLE_MIN = 9
 COOLDOWN_FRAMES = 20
 PREDICT_EVERY = 2
 MAX_HISTORY = 10
