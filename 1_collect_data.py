@@ -8,7 +8,7 @@ import config
 from utils import LandmarkExtractor, preprocess_frame, extract_keypoints, draw_landmarks
 
 
-KATA_YANG_DIREKAM = ["apa_kabar"]
+KATA_YANG_DIREKAM = ["baik"]
 JEDA_DETIK = 2.0  
 
 
